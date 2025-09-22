@@ -17,7 +17,6 @@ jobs:
         with:
           customer: ucll
           system: ${{ github.event.repository.name }}
-          subsystem: backend
           publishonly: true
         env:
           SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_TOKEN }}"
